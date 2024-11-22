@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3-Level Dropdown Menu</title>
+    <style>
+        /* Basic Menu Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            background-color: navy;
+            color: white;
+            padding: 0;
+        }
+
+        .menu {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+
+        .menu > li {
+            position: relative; /* Needed for dropdown positioning */
+            padding: 15px 20px;
+            cursor: pointer;
+        }
+
+        .menu a {
+            text-decoration: none;
+            color: white;
+        }
+
+        /* Prevent visited links from changing color */
+        .menu a:link,
+        .menu a:visited {
+            color: white;
+        }
+
+        /* Dropdown styles */
+        .dropdown, .dropdown-sub {
+            display: none; /* Hidden by default */
+            position: absolute;
+            background-color: #444;
+            padding: 10px 0;
+            list-style: none;
+            margin: 0;
+            top: 100%; /* Dropdown appears below the parent */
+            left: 0;
+            min-width: 150px;
+            z-index: 10;
+            border: 1px solid #555;
+        }
+
+        .dropdown li {
+            position: relative; /* Needed for sub-dropdown positioning */
+            padding: 10px 15px;
+        }
+
+        .dropdown li:hover {
+            background-color: #555;
+        }
+
+        /* Sub-dropdown styles */
+        .dropdown-sub {
+            top: 0;
+            left: 100%; /* Sub-menu appears to the right of the parent */
+        }
+
+        /* Show dropdowns on hover */
+        .menu > li:hover > .dropdown,
+        .dropdown li:hover > .dropdown-sub {
+            display: block; /* Ensure dropdown is visible */
+        }
+
+        /* Add spacing for smooth transitions to sub-menus */
+        .dropdown li {
+            padding-right: 20px; /* Adds space between text and sub-dropdown */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <ul class="menu">
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                About
+                <ul class="dropdown">
+                    <li><a href="#">Our Mission</a></li>
+                    <li>
+                        Team
+                        <ul class="dropdown-sub">
+                            <li><a href="#">Leadership</a></li>
+                            <li>
+                                Departments
+                                <ul class="dropdown-sub">
+                                    <li><a href="#">Engineering</a></li>
+                                    <li><a href="#">Marketing</a></li>
+                                    <li><a href="#">HR</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </li>
+            <li>
+                Services
+                <ul class="dropdown">
+                    <li><a href="#">Consulting</a></li>
+                    <li><a href="#">Training</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+        </ul>
+    </nav>
+<h1> Hi Everyone. This is a test site</h1>
+<h2>We are testing menus here</h2>
+</body>
+</html>

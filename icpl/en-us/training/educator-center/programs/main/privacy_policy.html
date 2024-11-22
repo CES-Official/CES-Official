@@ -1,0 +1,506 @@
+<!DOCTYPE html><html
+	class=" is-full  has-default-focus theme-light"
+	lang="en-us"
+	dir="ltr"
+	data-authenticated="false"
+	data-auth-status-determined="false"
+	data-target="docs"
+	x-ms-format-detection="none">
+
+
+<!-- Mirrored from learn.microsoft.com/en-us/training/educator-center/programs/msle/?wt.mc_id=fsi_msle_webpage_wwl_aiinedu by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 08 Nov 2024 05:18:20 GMT -->
+			   <head>
+				   <meta charset="utf-8" />
+				   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+				   <title>India CyberLearning</title>
+				   <style>
+		   /* Styling specifically for the page title section */
+		   .page-header {
+			background-color: navy;
+			color: white;
+			text-align: center;
+			padding: 20px;
+			font-size: 2em;
+			font-family: Arial, sans-serif;
+		   }
+				   </style>
+				 
+				 <style>
+					body {
+						font-family: Arial, sans-serif;
+						margin: 0;
+						padding: 0;
+					}
+				
+					nav {
+						background-color: navy;
+						color: white;
+						padding: 0;
+					}
+				
+					.menu {
+						list-style: none;
+						padding: 15px 20px;
+						margin: 0;
+						display: flex;
+					}
+				
+					.menu > li {
+						position: relative; /* Needed for dropdown positioning */
+						padding: 15px 20px;
+						cursor: pointer;
+					}
+				
+					.menu a {
+						text-decoration: none;
+						color: white !important; /* Force white text in all cases */
+					}
+				
+					/* Override all link states with high specificity */
+					.menu a:link,
+					.menu a:visited,
+					.menu a:hover,
+					.menu a:active {
+						color: white !important; /* Ensure white text remains consistent */
+						text-decoration: none !important; /* Prevent underlines or other hover effects */
+					}
+				
+					/* Dropdown styles */
+					.ndropdown, .dropdown-sub {
+						display: none; /* Hidden by default */
+						position: absolute;
+						background-color: navy;
+						padding: 0;
+						list-style: none;
+						margin: 0;
+						top: 100%;
+						left: 0;
+						min-width: 150px;
+						z-index: 10;
+						border: 1px solid #555;
+					}
+				
+					.ndropdown li {
+						position: relative; /* Needed for sub-dropdown positioning */
+						padding: 10px 15px;
+					}
+				
+					.ndropdown li:hover {
+						background-color: #003366; /* Slightly lighter navy for hover */
+						color: white !important; /* Ensure text color stays white */
+					}
+				
+					/* Sub-dropdown styles */
+					.dropdown-sub {
+						top: 0;
+						left: 100%; /* Sub-menu appears to the right of the parent */
+					}
+				
+					/* Show dropdowns on hover */
+					.menu > li:hover > .ndropdown,
+					.ndropdown li:hover > .dropdown-sub {
+						display: block; /* Ensure dropdown is visible */
+					}
+				
+					/* Add spacing for smooth transitions to sub-menus */
+					.ndropdown li {
+						padding-right: 20px; /* Adds space between text and sub-dropdown */
+					}
+				</style>
+				  
+				   <meta property="og:title" content="India CyberLearning Training Programs and Skills" />
+				   <meta property="og:type" content="website" />
+				   <meta property="og:url" content="index.html" />
+				   <meta property="og:image" content="../../../../media/open-graph-image.png" />
+
+				   <meta property="og:image:alt" content="Microsoft Learn" />
+
+				   <meta name="twitter:card" content="summary_large_image" />
+
+				   <meta name="twitter:site" content="@MicrosoftLearn" />
+
+				   <meta name="color-scheme" content="light dark">
+				   <meta name="author" content="sadadow" />
+				   <meta name="breadcrumb_path" content="/learn/breadcrumb/toc.json" />
+				   <meta name="clicktale" content="true" />
+				   <meta name="depot_name" content="MSDN.LearnShared" />
+				   <meta name="document_id" content="b77bd365-887e-0492-be7b-debfb96ff9cf" />
+				   <meta name="document_version_independent_id" content="83923b19-ae87-d8a5-e5c2-d425e503f243" />
+				   <meta name="feedback_help_link_type" content="" />
+				   <meta name="feedback_help_link_url" content="" />
+				   <meta name="feedback_product_url" content="" />
+				   <meta name="feedback_system" content="None" />
+				   <meta name="git_commit_id" content="f72798bbed5905a4123210216e6fa00436730534" />
+				   <meta name="gitcommit" content="https://github.com/MicrosoftDocs/LearnShared/blob/f72798bbed5905a4123210216e6fa00436730534/LearnShared/educator-center/programs/MSLE/index.yml" />
+				   <meta name="locale" content="en-us" />
+				   <meta name="ms.topic" content="marketing-hub" />
+				   <meta name="original_content_git_url" content="https://github.com/MicrosoftDocs/LearnShared/blob/live/LearnShared/educator-center/programs/MSLE/index.yml" />
+				   <meta name="page_type" content="marketing" />
+				   <meta name="schema" content="Marketing" />
+				   <meta name="site_name" content="Docs" />
+				   <meta name="uhfHeaderId" content="MSDocsHeader-Learn" />
+				   <meta name="updated_at" content="2024-05-08 04:59 PM" />
+				   <meta name="persistent_id" content="3e81faf1-d613-0927-f6d8-ed13bd443bfb" />
+				   <meta name="github_feedback_content_git_url" content="https://github.com/MicrosoftDocs/LearnShared/blob/live/LearnShared/educator-center/programs/MSLE/index.yml" />
+				   <link href="index.html" rel="canonical">
+				   <title>Microsoft Learn for Educators Program - Applied Skills | Microsoft Learn</title>
+				   <link rel="stylesheet" href="../../../../../static/assets/0.4.028676160/styles/site-ltr.css">
+				   <script id="msdocs-script">
+		   var msDocs = {
+			   environment: {
+				   supportLevel: 'production',
+				   accessLevel: 'online',
+				   reviewFeatures: false,
+				   systemContent: true,
+				   azurePortalHostname: 'portal.azure.com',
+				   legacyHosting: false,
+				   siteName: 'learn',
+			   }, data: {
+				   timeOrigin: Date.now(),
+				   contentLocale: 'en-us',
+				   contentDir: 'ltr',
+				   userLocale: 'en-us',
+				   userDir: 'ltr',
+				   pageTemplate: 'Marketing',
+				   brand: '',
+				   context: {},
+				   hasBinaryRating: false,
+				   feedbackHelpLinkType: '',
+				   feedbackHelpLinkUrl: '',
+				   standardFeedback: false,
+				   showFeedbackReport: false,
+				   enableTutorialFeedback: false,
+				   feedbackSystem: 'None',
+				   feedbackGitHubRepo: '',
+				   feedbackProductUrl: '', extendBreadcrumb: false, isEditDisplayable: false,
+				   hideViewSource: false,
+				   hasPageActions: false,
+				   hasPrintButton: false,
+				   hasBookmark: true,
+				   hasShare: true,
+				   isPermissioned: false,
+				   isPrivateUnauthorized: false, hasRecommendations: false, contributors: [{ name: "bipach", url: "https://github.com/bipach" }, { name: "kcpitt", url: "https://github.com/kcpitt" }, { name: "jonsan21", url: "https://github.com/jonsan21" }, { name: "alexbuckgit", url: "https://github.com/alexbuckgit" }, { name: "cschedler", url: "https://github.com/cschedler" }, { name: "rycurrie", url: "https://github.com/rycurrie" }, { name: "dastaffo", url: "https://github.com/dastaffo" }],
+			   },
+			   functions: {}
+		   };
+
+
+				   </script>
+				   <script src="../../../../../../wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js"></script>
+				   <script src="../../../../../../js.monitor.azure.com/scripts/c/ms.jsll-4.min.js"></script>
+				   <script src="../../../../../static/assets/0.4.028676160/global/deprecation.js"></script>
+				   <script src="../../../../../static/assets/0.4.028676160/scripts/en-us/index-docs.js"></script>
+			   </head>
+
+			   <body lang="en-us" dir="ltr">
+				   <!--  <h1 class="page-header" id="quip-your-students-with-ai-and-tech-skills-for-today-and-tomorrow">INDIA CYBERLEARNING</h1> -->
+				   <!-- Other content on the page -->
+				   <div class="page-header">
+					   <img src="./icpllogo.png" alt="India CyberLearning Pvt Ltd." align="left" data-linktype="absolute-path">
+					   <!-- <strong>                       INDIA CYBERLEARNING</strong> -->
+				   </div>
+
+				   <p class="font-size-lg" style="text-align: left; background-color: navy; height: 35px; width:100%; color:white; padding-left: 30px;"><strong>A Trusted Microsoft Global Training Partner</strong></p>
+				   <!-- More content here -->
+				   </div>
+				   <div class="header-holder has-default-focus">
+					   <!-- <h1 id="equip-your-students-with-ai-and-tech-skills-for-today-and-tomorrow" class="title is-1 is-responsive">INDIA CYBERLEARNING </h1> -->
+					   <!--	<a href="#main" style="z-index: 1070" class="outline-color-text visually-hidden-until-focused position-fixed inner-focus focus-visible top-0 left-0 right-0 padding-xs text-align-center  has-body-background" tabindex="1">Skip to main content</a>
+		<div hidden id="cookie-consent-holder" data-test-id="cookie-consent-container"></div> -->
+
+					   <div id="unsupported-browser" style="
+			background-color: lightgray;
+			color: black;
+			padding: 16px;
+			border-bottom: 1px solid grey;"
+			 hidden>
+
+						   <div style="max-width: 800px; margin: 0 auto;">
+							   <p style="font-size: 24px">This browser is no longer supported.</p>
+							   <p style="font-size: 16px; margin-top: 16px;">Upgrade to Microsoft Edge to take advantage of the latest features, security updates, and technical support.</p>
+							   <div style="margin-top: 12px;">
+								   <a href="https://go.microsoft.com/fwlink/p/?LinkID=2092881"
+			  style="
+						background-color: #0078d4;
+						border: 1px solid #0078d4;
+						color: white;
+						padding: 6px 12px;
+						border-radius: 2px;
+						display: inline-block;
+						">Download Microsoft Edge</a>
+								   <a href="https://learn.microsoft.com/en-us/lifecycle/faq/internet-explorer-microsoft-edge"
+			  style="
+							background-color: white;
+							padding: 6px 12px;
+							border: 1px solid #505050;
+							color: #171717;
+							border-radius: 2px;
+							display: inline-block;
+							">More info about Internet Explorer and Microsoft Edge</a>
+							   </div>
+						   </div>
+					   </div>
+
+					   <div class="header-holder has-default-focus">
+
+						<nav>
+							<ul class="menu">
+								<li><a href="index4194.html">Home</a></li>
+								<li><a href="about.html">About</a></li>
+								 
+								<li> Learning Hub 
+								 <ul class="ndropdown">
+									<li>Bootcamps
+										 <ul class="dropdown-sub">
+											 <li><a href="aibootcamp.html">AI Bootcamp for Educators</a></li>
+											 <li><a href="cybersecurity.html">Cybersecurity and AI Bootcamp</a></li>
+											 <li><a href="copilot.html">Generative AI Bootcamp</a></li>
+											 <li><a href="promptathon.html">Prompt Engineering and Prompt-A-Thon Workshop</a></li>
+										 </ul>
+									 </li>
+									 <li>Microsoft
+										 <ul class="dropdown-sub">
+											 <li><a href="mce.html">Microosft Certified Educator</a></li>
+												<li><a href="moscert.html">Microsoft Office Specialist</a></li>
+											 <li> <a href="mcfcert.html">Microsoft Certified Fundamentals</a></li>
+										 </ul>
+									 </li>
+						 
+									  <li> Pearson
+										 <ul class="dropdown-sub">
+												<li><a href="itspecialist.html">IT Specialist</a></li>
+										 </ul>
+									 </li>
+									 <li>
+									 Adobe
+										 <ul class="dropdown-sub">
+											 <li><a href="adobe.html">Adobe Certified Professional </a></li>
+										 </ul>
+									 </li> 
+								 
+								 </ul> 
+								<li> Championships
+									 <ul class="ndropdown">
+										   <li><a href="https://www.compudon.in">COMPUDON</a></li>
+										<li><a href="https://www.compudonjunior.in">COMPUDON Junior</a></li>
+										<li><a href="http://www.moneyolympiad.com">Money Olympiad</a></li>
+									</ul>
+								</li>
+								<li><a href="ot.html">OfficeTrainer</a></li>
+								<li><a href="contact.html">Contact</a></li>
+							</ul>
+						 </nav>
+				 </div>
+
+				   </div>
+				   </div>
+
+				   <!-- <div data-bi-name="body"> -->
+
+				   <div>
+					   <!-- .primary-holder -->
+					   <section class="primary-holder">
+						   <!--div.columns -->
+						   <div>
+							   <div>
+
+								   <main id="main" class="" role="main" data-bi-name="content" lang="en-us" dir="ltr">
+									   <div>
+										   <button type="button" class="border contents-button button button-clear button-sm is-hidden-tablet has-inner-focus" data-bi-name="contents-expand" data-contents-button hidden>
+											   <span class="icon">
+												   <span class="docon docon-editor-list-bullet" aria-hidden="true"></span>
+											   </span><span class="contents-expand-title">Table of contents</span>
+										   </button>
+									   </div><!-- end mobile-contents button  -->
+
+									   <div class="">
+										   <!-- <content> --><div id="Marketing" class="has-overflow-hidden">
+
+											   <div id="bifold-section-5">
+												   <div class="uhf-container padding-block-lg">
+													   <div class="is-gapless-mobile has-large-gaps">
+														   <div class="">
+															   <div class="is-full-width padding-block-xs">
+																   <h2 id="teach-ai-with-microsoft-applied-skills" class="title is-2 is-responsive">
+																	PRIVACY AND COOKIES POLICY
+																   </h2>
+																   <p class="font-size-lg">India CyberLearning Pvt. Ltd. respects your privacy and has adopted this Privacy and Cookies Policy (hereinafter “Privacy Policy”). This Privacy Policy is global and describes our data protection practices and the types of information that you provide to us; information we may collect automatically in the operation of our websites, web pages, and emails that link to this Privacy Policy (collectively this “Site(s)”); users of our products and services; individuals purchasing study aides, books, e-books, tests, practice tests, vouchers and our other products and services available on our website(s); and Personal Data (as defined below) that we may collect about you as a result of your participation in the championship(s).</p>
+																   <p class="font-size-lg" style="padding-top: 20px;">In addition, this Privacy Policy describes your rights and responsibilities, our rights and responsibilities, how we use the information we collect or receive; with whom we share the information with; the measures we take to protect the security of Personal Data from loss, misuse and unauthorized access, the choices you can make about providing your Personal Data to us as it relates to your participation, and academic testing experience; and how you can contact us. All references to ‘our’, ‘us’, or ‘we’, in this Privacy Policy and within the opt-in notice are deemed to refer to CyberLearning.</p>
+																   <p class="font-size-lg" style="padding-top: 20px;">The rights and responsibilities described in our Privacy Policy do not cover third party websites that may be linked to our Site(s) or referred to on this Site(s). These third party websites have their own privacy policies and we encourage you to read and review them.</p>
+																   <p class="font-size-lg" style="padding-top: 20px;">For purposes of this Privacy Policy “Personal Data” is any information that can be used to identify you or that when added with other Personal Data can be linked to you and includes, but is not limited to: personal contact detail (name, father name, street address, email address, phone number, fax number, credit/debit card information, company and title). We may also collect or receive the following additional Personal Data at registration or in the testing process, as necessary or appropriate, including, but not limited to: language, date of birth, company/school/center name, your designation/class, school/center address, history, education data, assessment details, including candidate ID number; residence and country of citizenship; signature and photograph. </p>
+
+																   <h2 class="font-size-lg" style="padding-top: 20px;">
+																	   YOUR RIGHTS & RESPONSIBILITIES
+																   </h2>
+																   <p class="font-size-lg">You agree that by visiting and/or providing, transmitting, or having another party you have authorized to provide or transmit your Personal Data to us on any of our Sites, you are accepting the practices described in this Privacy Policy and any updates made to this Privacy Policy. It is your responsibility to read this Privacy Policy and check for updates on a regular basis. By continuing to use our Site, products or services after such updates have been made you are agreeing to be bound by any changes to this Privacy Policy.</p>
+																   <p class="font-size-lg" style="padding-top: 20px;">You are never required to provide us with your Personal Data. If you do not agree to this Privacy Policy, please do not provide, transmit or allow anyone else to provide or transmit your Personal Data to us; however, if you decide to not provide to us your Personal Data it may affect our ability to allow to provide to you any products or services offered.</p>
+																   <p class="font-size-lg" style="padding-top: 20px;">You agree that we may collect or receive, use, process, disclose, transfer and retain your Personal Data as described herein. This Privacy Policy governs your use of any and all of our Sites our testing services, and in purchasing our products and services in general. We will use your Personal Data only for the purposes set forth herein.</p>
+																   <p class="font-size-lg" style="padding-top: 20px;">As the subject of the Personal Data collected, you have rights related to the Personal Data that we hold about you.</p>
+																   <p class="font-size-lg" style="padding-top: 20px;">At any time you have the right to:</p>
+
+																   <div class="content font-size-lg">
+																	   <ul>
+																		   <li style="padding-top:10px;">Request access to the information we hold about you.</li>
+																		   <li  style="padding-top:10px;">Ask us how to correct any inaccurate or incomplete information we have about you or request us to make the corrections.</li>
+																		   <li style="padding-top:10px;">Request us to delete your information from our records, subject to the approval of your test sponsor.</li>
+																		   <li style="padding-top:10px;">Withdraw consents you have given, where our collection and use is based upon your consent.</li>
+																		   <li style="padding-top:10px;">Ask us to send a copy of your Personal Data to a third party in a data portable format, subject to the approval of your test sponsor.</li>
+																	   </ul>
+																   </div>
+																   <p class="font-size-lg" style="padding-top: 20px;">You may access and correct the Personal Data you have submitted by contacting our offices by email at <a href="mailto:support@cyberlearningindia.com">support@cyberlearningindia.com</a> We will respond to requests within a reasonable amount of time. </p>
+																   <p class="font-size-lg" style="padding-top: 20px;">Additionally, if you have questions or requests regarding the above, please contact us through the Contact Us link on the website.</p>
+																   <h2 class="font-size-lg" style="padding-top: 20px;">
+																	OUR RIGHTS & RESPONSIBILITIES
+																   </h2>
+																   <p class="font-size-lg">We will provide you access to these Rights and Responsibilities and any subsequent updates.</p>
+																   <p class="font-size-lg" style="padding-top: 20px;">We encourage you to periodically review this Privacy Policy to learn more about our information practices as they change over time. We reserve the right to update this Privacy Policy periodically, without notice. A change in the effective date will indicate that the Privacy Policy has been updated. Any changes to our Privacy Policy will become effective upon posting of the revised Privacy Policy on our Site(s). Your use of our Site(s), and any of our products and services following such changes constitutes your acceptance of the revised Privacy Policy then in effect.</p>
+																   <p class="font-size-lg" style="padding-top: 20px;">We do not sell, lease, rent, or otherwise disclosure your Personal Data to third parties unless otherwise stated below.</p>
+																   <h2 class="font-size-lg" style="padding-top: 20px;">
+																   How We Use the Personal Data We Collect. 	
+																   </h2>
+																   <p class="font-size-lg">We use Personal Data to provide services and information for our legitimate purposes in operating our business. Examples of our use or disclosure of your Personal Data include, but is not limited to:</p>
+																   <div class="content font-size-lg">
+																	<ul>
+																		<li style="padding-top:10px;">We will use your Personal Data to provide training, test delivery services to you, including test scheduling and administration, maintaining the integrity of the testing process, and score reporting. </li>
+																		<li  style="padding-top:10px;">Personal Data is also used for our legitimate business purposes as needed to manage day to day business needs including, but not limited to, payment processing and financial account management, business planning and forecasting, security and fraud prevention, and compliance with legal and regulatory obligations.</li>
+																	</ul>
+																	<h2 class="font-size-lg" style="padding-top: 20px;">
+																		E-COMMERCE
+																		</h2>
+																		<p class="font-size-lg">The e-commerce Sites provide you with the opportunity to purchase products and services. </p>
+																		<h2 class="font-size-lg" style="padding-top: 20px;">
+																			Personal Data Collected for E-commerce Services 	
+																			</h2>
+																			<p class="font-size-lg">We clearly identify what information must be provided by you for us to deliver the various products, services, and information that you may have requested. Depending on your choices, we will require different types of information for these various products, services, and information. You may also choose to provide additional or optional information to enhance the services we may provide to you. The Personal Data that we may collect includes:</p>
+																			<div class="content font-size-lg">
+																				<ul>
+																					<li style="padding-top:10px;">Contact and shipping information, as well as purchase history, and payment information. </li>
+																					<li  style="padding-top:10px;">Information regarding your use of the Site (i.e., pages visited, files downloaded).</li>
+																					<li style="padding-top: 10px;">In the event you wish to ‘email a friend’ telling them about the products available on our e-commerce Sites, you will be given the opportunity to enter the friend’s email address, include your personal message, hit send and your message is on its way. We will not store the ‘email a friend’s’ address and we will not send any email messages to them beyond the ‘email a friend message’ you sent from our Site. No ‘email a friend’ email addresses will be sold or used for promotional purposes.</li>
+																				</ul>
+																				<h2 class="font-size-lg" style="padding-top: 20px;">
+																					How We Use the Personal Data We Collect 	 	
+																				</h2>
+																				<p class="font-size-lg">We use the Personal Data you provide to provide services and information you request, to process transactions, fulfill product delivery and for legitimate purposes in operating our business. Additionally, we use information collected about your use of our site for legitimate business interests to understand the habits of our Site users and to improve the products, services, and content we offer.</p>
+
+																				<h2 class="font-size-lg" style="padding-top: 20px;">
+																					THIRD PARTY WEBSITES AND SOCIAL MEDIA  	
+																				</h2>
+																				<p class="font-size-lg">We may also collect information via third party websites such as Google, or via social media such as Twitter, Facebook and other sites. This information may include your name, address, username, email address, website visited, content posted, IP address, nationality, language, and other publicly available demographics. This information is used to improve the products and services that we offer, to identify and resolve customer service issues, and to provide the information and services you request.</p>
+
+																				<h2 class="font-size-lg" style="padding-top: 20px;">
+																					INFORMATION RECEIVED FROM INTERNET SERVICE PROVIDERS THROUGH THIS SITE 	
+																				</h2>
+																				<p class="font-size-lg">This Site receives information that is automatically generated by a user’s Internet service provider (ISP), browser or mobile device. This information may include the IP address, the associated URLs, domain names, the browser type, the approximate location of the ISP’s servers, the pages of our Site that the user views, and any search terms entered on this Site. This information may be collected for system administration purposes, to gather broad demographic information and to monitor the level of activity on the Site. We reserve the right to link this information to your Personal Data in order to protect the integrity of our system and for security purposes.</p>
+
+																				<h2 class="font-size-lg" style="padding-top: 20px;">
+																					DISCLOSURE AND TRANSFER OF INFORMATION 		
+																				</h2>
+																				<p class="font-size-lg">We will comply with the privacy and data collection laws of the jurisdiction of the individual from whom the information is being collected. Our computer operations are currently based in India. The Internet is a global environment. By using this Site and sending information and Personal Data to us electronically, you consent to trans-border and international transmission of any data that you may choose to supply us to any country in the world, including countries without an adequate level of data protection. Information and Personal Data transmissions to this Site and emails sent to us may not be secure. Given the inherent operation and nature of the Internet, all Internet transmissions are done at the user’s own risk.</p>
+
+																				<h2 class="font-size-lg" style="padding-top: 20px;">
+																					Other Disclosure and Transfer of Information 		
+																				</h2>
+																				<p class="font-size-lg">We may disclose Personal Data in the following situations: (a) in response to a subpoena, court order or legal process, to the extent permitted and required by law; (b) to protect your security, or the security of other persons, consistent with applicable law; (c) to address actual or suspected fraud or other illegal activities; (d) in connection with a sale, joint venture or other transfer of some or all of the assets of CyberLearning.; (e) where you explicitly agree to allow us to disclose your Personal Data to select third parties; and (f) to our subcontractors and/or agents (such as, those third parties hosting one or more of our website’s; processing credit card transactions and payments; fulfilling and processing orders; assisting us with marketing and promotions; collecting web analytics data, etc.), including independent testing centers solely for the purpose of enabling them to perform services on our behalf.</p>
+																				<p class="font-size-lg" style="padding-top: 20px;">In certain situations, we may be required to disclose Personal Data in response to lawful requests by public authorities, including to meet national security or law enforcement requirements.</p>
+																				<p class="font-size-lg" style="padding-top: 20px;">We do not provide your Personal Data to any third parties who are not connected with the services we provide or relate to such products or services unless you agree. Except as disclosed in this Privacy Policy, we will not provide your Personal Data to third parties.</p>
+																				<h2 class="font-size-lg" style="padding-top: 20px;">
+																					INFORMATION FROM CHILDREN 			
+																				</h2>
+																				<p class="font-size-lg">We recognize the importance of protecting privacy where children are involved. We are committed to protecting children's privacy. Except in the case of the COMPUDON JUNIOR championship, we do not knowingly collect Personal Data from children under the age of 13. If a child under the age of 13 has provided us with Personal Data, without a signed parental consent form, we ask that a parent or guardian contact us at <a href="malto:info@compudonjunior.in">info@compudonjunior.in</a>  or you may call us at +91 83830 56545. If you are under 18, please be sure to read this Privacy Policy with your parent(s) or legal guardian(s) and ask questions about things you do not understand.</p>
+																				<h2 class="font-size-lg" style="padding-top: 20px;">
+																					AGGREGATION OF NON-PERSON-SPECIFIC DATA 			
+																				</h2>
+																				<p class="font-size-lg">We may statistically aggregate in non-person-specific form test responses and other information collected in the certification, credentialing, licensure, and academic admission test registration and delivery process and transfer this information to test sponsors and to independent testing centers. Such aggregated non-person-specific information may be used for quality control, operations management, security and marketing purposes and to enhance develop or improve certification, credentialing, licensure, and academic admission testing processes, testing services, tests and related products and services. By registering for a test through us, you give to us your consent to this non-person-specific data aggregation and the use and transmission of this aggregated statistical data as outlined herein.</p>
+																					<h2 class="font-size-lg" style="padding-top: 20px;">
+																						EMAIL NEWSLETTERS 			
+																					</h2>
+																					<p class="font-size-lg">We may use your email address to send you email newsletters about our products & services. You may opt out of receiving the newsletter at any time by notifying us by email at <a href="mailto:support@cyberlearningindia.com">support@cyberlearningindia.com</a> following the opt-out instructions provided in the email newsletter.</p>
+																						<h2 class="font-size-lg" style="padding-top: 20px;">
+																							PROTECTION OF CREDIT CARD INFORMATION 			
+																						</h2>
+																						<p class="font-size-lg">Individuals who make online purchases will be asked to provide credit/debit card information, which may include payment instrument number (e.g., credit card), name and billing address, the security code associated with the credit/debit card information, and other financial data ("Payment Data"). We don’t collect this data and this is collected by our merchant gateway. Through our merchant gateway, we provide a secured transmission method for the electronic transmission of credit/debit card information.</p>
+																				<p class="font-size-lg" style="padding-top: 20px;"></p>
+																				<h2 class="font-size-lg" style="padding-top: 20px;">
+																					RESOLUTION OF CONCERNS		
+																				</h2>
+																				<p class="font-size-lg">We commit to resolving complaints about your privacy and our collection, use, transfer, or processing of your Personal Data. Individuals with inquires or concerns regarding this Privacy Policy should first contact us through <a href="mailto:support@cyberlearningindia.com">support@cyberlearningindia.com</a>.</p>
+																				<p class="font-size-lg" style="padding-top: 20px;">We will respond to your inquiry within 30 days. If you believe you have not received a timely acknowledgement of your inquiry or concern, or if you believe your inquiry or concern was not satisfactorily addressed by us, you can write to us at: <a href="mailto:support@cyberlearningindia.com">support@cyberlearningindia.com</a> </p>
+
+																				<h2 class="font-size-lg" style="padding-top: 20px;">
+																					COOKIES AND WEB BEACONS 	
+																				</h2>
+																				<p class="font-size-lg">We use browser cookies and similar technologies (collectively, “Cookies”) to collect and store certain information when you use, access, or interact with our Site(s). We may, for example, collect information about the type of device you use to access the Site(s), the operating system and version, your IP address, your general geographic location as indicated by your IP address, your browser type, the content you view and features you access on the Site(s), the web pages you view immediately before and after you access the Sites(s), whether and how you interact with content available on the Site(s), and the search terms you enter on the Site(s). For information about how we use Cookies and the choices you may have, please see below.</p>
+																				<p class="font-size-lg" style="padding-top: 20px;">	By using our Site(s), you agree to the our use of the cookies as described above and to our use of web beacons for the collection of information in order to provide the products or services you have requested and for improvements, as we deem appropriate for our legitimate purposes, related to our products and services.</p>												
+																				<p class="font-size-lg" style="padding-top: 20px;"><strong><u>Cookies.</u></strong> Cookies are small text files that a web server places on your computer or mobile device. Cookies contain information that can later be read by the web server that originally placed the cookie on your computer or mobile device.</p>
+																				<p class="font-size-lg" style="padding-top: 20px;">Below is a list of the main types of cookies we use and what we use them for:</p>
+																				<div class="content font-size-lg">
+																					<ul>
+																						<li style="padding-top:10px;"><strong><u>Strictly Necessary Cookies:</u></strong> These cookies are essential in order to enable you to move around the Site and use its features, such as accessing secure areas of this Site. Without these cookies services you have asked for, like shopping baskets or e-billing, cannot be provided.</li>
+																						<li  style="padding-top:10px;"><strong><u>Performance Cookies:</u></strong> These cookies collect information about how visitors use a website, for instance which pages visitors go to most often, and if they get error messages from web pages. Some of the performance cookies are analytics cookies using third party web analytics software, which allow us to understand more about how our Site is used. Performance cookies are not used to collect information that identifies a visitor. All information these performance cookies collect is aggregated and therefore anonymous. The aggregated data is only used by us to improve how our Site works. We might also use performance cookies to highlight our products or services which we think will be of interest to you based on your use of our Site. By using this Site you agree we may place these types of cookies on your device.</li>
+																						<li style="padding-top:10px;"><strong><u>Functionality Cookies:</u></strong>These cookies allow the Site to remember choices you make (such as your user name, language or the region you are located in) and provide enhanced, more personal features. For instance, these cookies can be used to remember changes you have made to text size, fonts and other parts of web pages that you can customize. They may also be used to provide services you have asked for such as watching a video or commenting on a blog. The information these cookies is not used to track your browsing activity on other websites. These cookies are known as “functionality cookies” and help to improve a user’s experience of a website by providing a more personalized service. By using this Site you agree we may place these types of cookies on your device.</li>
+																						<li style="padding-top:10px;"><strong><u>Targeting or advertising cookies:</u></strong> These cookies are used to deliver advertising materials relevant to you and your interests. They are also used to limit the number of times you see an advertisement as well as help measure the effectiveness of the advertising campaign. They are usually placed by advertising networks with the website operator’s permission. They remember that you have visited a website and this information is shared with other organizations such as advertisers. Quite often targeting or advertising cookies will be linked to site functionality provided by the other organization. Most of our Sites do not use targeting cookies. By using this Site you agree we may place these types of cookies on your device.</li>
+																						<li style="padding-top:10px;"><strong><u>3rd Party Cookies and Social Networks.</u></strong> If you click on a hyperlink from this Site to any third party websites (for example, if you 'share' content from our Site with friends or colleagues through social networks (such as Facebook or Twitter) or use third party services together with this Site, you may be acquire cookies from these third party websites. Third party websites will have their own privacy and cookie policies which we do not and cannot control. Please check the third-party websites for more information about their cookies and how to manage them. You should always review these third-party websites privacy policies.</li>
+																					</ul>
+																				</div>
+																				<h2 class="font-size-lg" style="padding-top: 20px;">
+																					How to manage cookies		
+																				</h2>
+																				<p class="font-size-lg">If you block cookies or cookies are not enabled on your computer, it will mean that your browsing or shopping experience on our websites will be limited. Some active content, movies and online shopping baskets, for example, may not work correctly. To turn cookies on or off for all of our websites via your web browser, you can follow the instructions provided by the UK Information Commission Office at <a href="https://ico.org.uk/for-the-public/online/cookies/">ico.org.uk/for-the-public/online/cookies.</a></p>
+																				<p class="font-size-lg" style="padding-top: 20px;"><strong><u>Web Beacons.</u></strong> Web Beacons are small strings of code that provide a method for delivering a graphic image on a web page for the purpose of transferring data. For example, when you visit a page on this Site, the code for the page being visited may be transferred to us. The information transmitted to us is only used internally by us and is not shared with any third parties, except as provided in this Privacy Policy. We use this information for the following purposes:</p>
+																				<div class="content font-size-lg">
+																					<ul>
+																						<li style="padding-top:10px;">To allow us to better understand the traffic patterns within our websites and, subsequently, to adjust our content to better respond to our visitors interests; and</li>
+																						<li  style="padding-top:10px;">To use the information we obtain to suggest materials and resources that may be of interest to you based on your use of our Site.</li>
+																					</ul>
+																				</div>
+																				<p class="font-size-lg" style="padding-top: 20px;"><strong><u>Do Not Track Signals. </u></strong> This Site does not respond to web browser “do not track” signals or comparable signals or mechanisms.</p>
+
+																				<h2 class="font-size-lg" style="padding-top: 20px;">
+																					UPDATES TO THIS PRIVACY POLICY 		
+																				</h2>
+																				<p class="font-size-lg">We reserve the right to update the terms of this Privacy Policy from time to time. We encourage you to visit and review this Privacy Policy periodically to ensure you agree with any changes or updates. We will post our revised privacy notice on our website and update the ‘Revision Date’ to reflect the date of the changes.</p>
+																				<p class="font-size-lg" style="padding-top: 20px;">By continuing to use our website after we post any such changes or updates you accept the privacy notice as modified.</p>
+
+																					<h2 class="font-size-lg" style="padding-top: 20px;">
+																						HOW TO CONTACT US 			
+																					</h2>
+																					<p class="font-size-lg">If you have any questions or concerns about this Privacy Policy or have a request regarding your rights as a data subject, you may email at <a href="mailto:support@cyberlearningindia.com">support@cyberlearningindia.com You may also contact us at +91 83830 56545</a></p>
+																					<p class="font-size-lg" style="padding-top: 20px;"><strong>November 18, 2024 </strong></p>
+</div>
+   </div>
+
+													   </div>
+												   </div>
+											   </div>
+										   </div>
+									   </div>
+							
+
+
+						   <!-- end of interactive container -->
+				   </div>
+
+				   </div>
+				   <!--end of .mainContainer -->
+
+				   <section class="border-top has-default-focus is-hidden-interactive margin-top-sm  margin-top-none">
+					   <footer id="footer" data-bi-name="footer" class="footer-layout uhf-container has-padding" role="contentinfo">
+						   
+						   <ul class="links pull-right" data-bi-name="footerlinks" style="float: right;" >
+							   <li class="manage-cookies-holder" hidden style="float: right;"></li>
+							   <li style="float: right;"><a class="external-link-indicator" data-mscc-ic="false" href="https://techcommunity.microsoft.com/t5/microsoft-learn-blog/bg-p/MicrosoftLearnBlog" data-bi-name="bloglink">Blog</a></li>
+							   <li style="float: right;"><a class="external-link-indicator" data-mscc-ic="false" href="./privacy_policy.html" data-bi-name="privacy">Privacy</a></li>
+							   <li style="float: right;"><a class="external-link-indicator" data-mscc-ic="false" href="./terms.html" data-bi-name="termsofuse">Terms of Use</a></li>
+							  
+							   <li>&copy; India CyberLearning Pvt Ltd 2024</li>
+						   </ul>
+					   </footer>
+
+				   </section>
+
+				   <div id="action-panel" role="region" aria-label="Action Panel" class="action-panel has-default-focus" tabindex="-1"></div>
+			   </body>
+
+<!-- Mirrored from learn.microsoft.com/en-us/training/educator-center/programs/msle/?wt.mc_id=fsi_msle_webpage_wwl_aiinedu by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 08 Nov 2024 05:18:28 GMT -->
+</html>
