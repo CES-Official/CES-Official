@@ -1,0 +1,9 @@
+<header class="page-header">
+	<div class="logo-left">
+		<img size="100%" src="./icpllogo.png" alt="CyberLearning Logo">
+		<span><lass="font-size-lg" style="text-align: left; background-color: navy; height: 35px; width:100%; color:white; padding-left: 30px;"><strong>A Trusted Microsoft Global Training Partner</strong></span>
+	</div>
+	<div class="logo-right">
+		<img src="./gtp_logo.jpg" alt="Microsoft Global Training Partner Logo">
+	</div>
+</header>

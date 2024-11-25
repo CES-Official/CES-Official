@@ -1,0 +1,32 @@
+<style>
+/* Two logo flex header */
+header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding: 10px;
+            background-color: #f4f4f4;
+        }
+
+        .logo-left {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .logo-left img {
+            width: 250px; /* Adjust as needed */
+        }
+
+        .logo-left span {
+            margin-top: 5px;
+            font-size: 14px;
+            color: #333;
+        }
+
+        .logo-right img {
+            width: 125px; /* Adjust as needed */
+        }
+  
+
+</style>
